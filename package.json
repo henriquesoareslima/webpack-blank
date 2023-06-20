@@ -1,0 +1,35 @@
+{
+  "name": "webpack-blank",
+  "version": "1.0.0",
+  "description": "Project with webpack 5, typescript, sass, bootstrap and jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --port 8088"
+  },
+  "author": "Henrique Soares Lima",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss": "^8.4.24"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.63.4",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.1.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
